@@ -1,8 +1,3 @@
-
-
----
-
-```markdown
 # 🌐 My Portfolio Website
 
 A clean, responsive personal portfolio website built to showcase my skills, projects, and contact information.
@@ -17,7 +12,7 @@ A clean, responsive personal portfolio website built to showcase my skills, proj
 
 ## 🛠️ Built With
 
-- **HTML5**
+- **HTML5**  
 - **CSS3** (with Bootstrap / Tailwind)
 - **JavaScript**
 - **AOS.js** (for scroll animations)
@@ -26,30 +21,3 @@ A clean, responsive personal portfolio website built to showcase my skills, proj
 
 ## 📁 Folder Structure
 
-```
-
-📂 my-portfolio/
-├── index.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── resume.pdf
-└── README.md
-
-```
-
-## 📷 Screenshots
-
-> *(Optional — Add screenshots or a preview GIF of your portfolio here)*
-
-## 📬 Contact
-
-- **Email**: yourname@example.com
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
