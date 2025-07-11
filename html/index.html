@@ -1120,35 +1120,40 @@
           <div class="col-lg-7">
             <div class="contact-form">
               <h3>Get In Touch</h3><br>
-              <form action="../forms/contact.php" method="post" class="php-email-form">
-                <div class="row gy-4">
 
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                  </div>
+              <!-- ✅ Updated: form action and added PHP response support -->
+                <form action="https://formsubmit.io/send/6767deepali@gmail.com" method="POST">
+                    <!-- Redirect to thank you page after submission -->
+                    <input type="hidden" name="_redirect" value="#">
 
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                  </div>
+                    <!-- Optional: Protect from spam bots -->
+                    <input type="text" name="_formsubmit_id" style="display:none">
 
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                  </div>
+                    <div class="row gy-4">
 
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                  </div>
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
 
-                  <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                        </div>
 
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
+                        <div class="col-12">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
 
-                </div>
-              </form>
+                        <div class="col-12">
+                            <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+
+                    </div>
+                </form>
+
 
             </div>
           </div>
@@ -1158,6 +1163,8 @@
       </div>
 
     </section><!-- /Contact Section -->
+
+
 
   </main>
 
